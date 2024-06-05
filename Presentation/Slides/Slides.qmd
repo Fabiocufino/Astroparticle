@@ -138,10 +138,11 @@ The northern sky, where TXS 0506+056 is located, is observed through Earth by Ic
 
 
 <div style="position: relative; width: 100%; height: 200px;">
-  <span style="color: white; position: absolute; top:140%; left: 5%; transform: translate(-1%, -50%); font-size: 24px;">
+  <span style="text-align: center; color: white; position: absolute; top:135%; left: 1%; right: 40%;transform: translate(40%, -50%); font-size: 28px;">
     <b>On the basis of this result, we consider the hypothesis that the blazar TXS 0506+056 has been a source of high-energy neutrinos beyond that single event.</b>
   </span>
 </div>
+
 
 # Searching for neutrino emission 
 
@@ -340,11 +341,8 @@ $$
 
 ::::
 
-<div style="margin-top: -45px;"></div>
+<div style="margin-top: -30px;"></div>
 
-<hr> <!-- This adds a horizontal line -->
-
-<div style="margin-top: -1px;"></div>
 
 :::: {.columns}
 
@@ -369,11 +367,13 @@ $$
 
 <div style="margin-top: -25px;"></div>
 
+<hr> <!-- This adds a horizontal line -->
+
 ### Background Temporal Distribution Functions
 
 :::: {.columns}
 
-::: {.column width="45%"}
+::: {.column width="55%"}
 <div style="font-size: smaller;">
 Approximated as uniform over the observation period $T$:
 </div>
@@ -382,7 +382,7 @@ Approximated as uniform over the observation period $T$:
 ::: {.column width="10%"}
 :::
 
-::: {.column width="45%"}
+::: {.column width="35%"}
 <div style="font-size:0.9em; margin-bottom: 10px; text-align:center;">
 $$  
  TB(t_i) = \frac{1}{T}
@@ -426,7 +426,11 @@ $$
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Dependent Analysis
 
-![Time](Images/fig_1.png)
+<div style="text-align: center;">
+  <img src="Images/fig_1.png" alt="Time">
+  <p style="color: gray; font-size: 18px; margin-top: -20px;">[arXiv:1807.08794v1]</p>
+</div>
+
 
 - IC86b from 2012 to 2015, contains a significant excess which is identified by both time-window shapes
 - The excess consists of $13 \pm 5$ events above the expectation from the atmospheric background.
@@ -434,7 +438,11 @@ $$
 
 
 :::{.notes}
-Figure 1: Time-dependent analysis results. The orange curve corresponds to the analysis using the Gaussian-shaped time profile. The central time T0 and width TW are plotted for the most significant excess found in each period, with the P value of that result indicated by the height of the peak. The blue curve corresponds to the analysis using the box-shaped time profile. The curve traces the outer edge of the superposition of the best-fitting time windows (durations TW) over all times T0, with the height indicating the significance of that window. In each period, the most significant time window forms a plateau, shaded in blue. The large blue band centered near 2015 represents the best-fitting 158-day time window found using the box-shaped time profile. The vertical dotted line in IC86c indicates the time of the IceCube-170922A event.
+Figure 1: Time-dependent analysis results. The orange curve corresponds to the analysis using the Gaussian-shaped time profile. The central time T0 and width TW are plotted for the most significant excess found in each period, with the P value of that result indicated by the height of the peak. The blue curve corresponds to the analysis using the box-shaped time profile. The curve traces the outer edge of the superposition of the best-fitting time windows (durations TW) over all times T0, with the height indicating the significance of that window. In each period, the most significant time window forms a plateau, shaded in blue. 
+
+- The large blue band centered near 2015 represents the best-fitting 158-day time window found using the box-shaped time profile. 
+
+- The vertical dotted line in IC86c indicates the time of the IceCube-170922A event.
 :::
 
 
@@ -443,10 +451,17 @@ Figure 1: Time-dependent analysis results. The orange curve corresponds to the a
 
 - The significance depends on the energies of the events, their proximity to the coordinates of TXS 0506+056, and their clustering in time.
 
-![Time](Images/fig_2.png)
+<div style="text-align: center;">
+  <img src="Images/fig_2.png" alt="Time">
+  <p style="color: gray; font-size: 18px; margin-top: -10px;">[arXiv:1807.08794v1]</p>
+</div>
 
 :::{.notes}
+ Figure 2: Time-independent weight of individual events during the IC86b period. Each vertical line represents an event observed at the time indicated by calendar year (top) or MJD (bottom). Overlapping lines are shifted by 1 to 2 days for visibility. The height of each line indicates the Event Weight: the product of the event’s spatial term and energy term in the unbinned likelihood analysis evaluated at the location of TXS 0506+056 and assuming the best-fitting spectral index γ = 2.1 (30). 
  
+- The color for each event indicates an approximate value in units of TeV of the reconstructed muon energy (Muon Energy Proxy), which the analysis compares with expected muon energy distributions under different hypotheses.
+
+- The dashed curve and the solid bracket indicate the best-fitting Gaussian and box- shaped time windows, respectively. The distribution of event weights and times outside of the best-fitting time windows is compatible with background.
 :::
 
 ## Neutrinos from the direction of TXS 0506+056
@@ -474,24 +489,32 @@ Figure 1: Time-dependent analysis results. The orange curve corresponds to the a
 
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Dependent Analysis
-a. Joint uncertainty on gaussian shape fitted parameters 
+a. Joint uncertainty on gaussian shape fitted parameters holding the time parameters fixed (T0 = 13 December 2014, TW = 110 days) 
 b. Result of the time-dependent analysis performed at the location of TXS 0506+056 during the IC86b data period.
 
-![Time](Images/fig_3.png)
+<div style="text-align: center;">
+  <img src="Images/fig_3.png" alt="Time">
+  <p style="color: gray; font-size: 18px; margin-top: -20px;">[arXiv:1807.08794v1]</p>
+</div>
 
 :::{.notes}
-Figure 3: Time-dependent analysis results for the IC86b data period (2012-2015). (a) Change in test statistic, ∆TS, as a function of the spectral index parameter γ and the fluence at 100 TeV given by E2J100. The analysis is performed at the coordinates of TXS 0506+056, using the Gaussian-shaped time window and holding the time parameters fixed (T0 = 13 De- cember 2014, TW = 110 days). The white dot indicates the best-fitting values. The contours at 68% and 95% confidence level assuming Wilks’ theorem (36) are shown in order to indi- cate the statistical uncertainty on the parameter estimates. Systematic uncertainties are not included. (b) Skymap showing the P value of the time-dependent analysis performed at the coordinates of TXS 0506+056 (cross) and at surrounding locations. The analysis is performed on the IC86b data period, using the Gaussian-shaped time-window. At each point, the full fit for (Φ, γ, T0, TW) is performed. The P value shown does not include the look-elsewhere effect related to other data periods. An excess of events is detected consistent with the position of TXS 0506+056.
+Figure 3: Time-dependent analysis results for the IC86b data period (2012-2015). 
+- (a) Change in test statistic, ∆TS, as a function of the spectral index parameter γ and the fluence at 100 TeV given by E2J100. The analysis is performed at the coordinates of TXS 0506+056, using the Gaussian-shaped time window and holding the time parameters fixed (T0 = 13 December 2014, TW = 110 days). The white dot indicates the best-fitting values. The contours at $68\%$ and $95\%$ confidence level assuming Wilks’ theorem (36) are shown in order to indicate the statistical uncertainty on the parameter estimates. Systematic uncertainties are not included. 
+
+- (b) Skymap showing the P value of the time-dependent analysis performed at the coordinates of TXS 0506+056 (cross) and at surrounding locations. The analysis is performed on the IC86b data period, using the Gaussian-shaped time-window. At each point, the full fit for (Φ, γ, T0, TW) is performed. The P value shown does not include the look-elsewhere effect related to other data periods. An excess of events is detected consistent with the position of TXS 0506+056.
 :::
 
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Dependent Analysis
 
 - Outside the 2012-2015 time period, the next most significant excess is found using the Gaussian window in 2017 and includes the IceCube-170922A event.
-- Centered at 22 September 2017 with duration $T_W = 19 d$, $\gamma = 1.7 \pm 0.6$, and fluence $E^2J = 0.2+0.4 × 10−4 TeV cm−2$ at $100 TeV$. 
+- Centered at 22 September 2017 with duration $T_W = 19$ days, $\gamma = 1.7 \pm 0.6$, and fluence $E^2J = 0.2^{+0.4}_{-0.2} × 10^{−4} \text{ TeV cm}^{−2}$ at $100 \text{ TeV}$. 
 -  No other event besides the IceCube-170922A event contributes significantly to the best-fit.
 
-![Time](Images/fig_1.png)
-
+<div style="text-align: center;">
+  <img src="Images/fig_1.png" alt="Time" style="width: 70%; height: auto;">
+  <p style="color: gray; font-size: 18px; margin-top: -20px;">[arXiv:1807.08794v1]</p>
+</div>
 :::{.notes}
 :::
 
@@ -501,21 +524,31 @@ Figure 3: Time-dependent analysis results for the IC86b data period (2012-2015).
 
 - The analysis is performed using the full 9.5 year-data samle
 
-Best fitting parameter:
+<div style="margin-top: -35px;"></div>
 
-  - Full 9.5-year sample best fit: $\Phi_{100} = (0.8^{+0.5}_{-0.4}) \times 10^{-16} \) TeV\(^{-1}\) cm\(^{-2}\) s\(^{-1})$, $\gamma = 2.0 \pm 0.3$.
-  - P value: $0.002\% (4.1σ)$.
-  - 7-year sample best fit: $\Phi_{100} = (0.9^{+0.6}_{-0.5}) \times 10^{-16} TeV\(^{-1}\) cm\(^{-2}\) s\(^{-1}\)$, $\( \gamma = 2.1 \pm 0.3 \)$.
-  - P value: $1.6\% (2.1σ)$.
+Best fitting parameters:
+
+  - Full 9.5-year sample best fit: 
+    - $\Phi_{100} = (0.8^{+0.5}_{-0.4}) \times 10^{-16} \text{ TeV}^{-1} \text{ cm}^{-2} \text{s}^{-1}$, 
+    - $\gamma = 2.0 \pm 0.3$.
+    - P value: $0.002\% (4.1σ)$.
+  - 7-year sample best fit: 
+    - $\Phi_{100} = (0.9^{+0.6}_{-0.5}) \times 10^{-16} \text{ TeV}^{-1} \text{ cm}^{-2} \text{s}^{-1}$,
+    - $\gamma = 2.1 \pm 0.3$.
+    - P value: $1.6\% (2.1σ)$.
+
+<div style="margin-top: -25px;"></div>
 
 
-<div style="height: 80px;"></div>
+
+<div style="position: relative; height: 800px;">
+  <img src="Images/fig_4_b.png" alt="Plot" style="position: absolute; bottom: 970px; left: 700px; width: 300px; height: 220px;">
+  <img src="Images/fig_4.png" alt="Plot" style="position: absolute; bottom: 740px; left: 700px; width: 300px; height: 220px;">
+  <p style="position: absolute; bottom: 710px; left: 770px; color: gray; font-size: 18px; margin-top: 420px;">[arXiv:1807.08794v1]</p>
+</div>
 
 
-- Worse than the time-dependent: Time-integrated analysis averages signals over time, diluting transient signals within background noise and reducing significance.
 
-
-![Plot](Images/fig_4.png){.absolute bottom=450 left=800 width="350" height="350"}
 
 
 # Blazars as neutrino sources
@@ -525,12 +558,12 @@ Best fitting parameter:
 
 - **Redshift:**
 
-  - z = 0.3365 ± 0.0010
+  - $z = 0.3365 \pm 0.0010$
   - Essential for determining the isotropic luminosity in both neutrinos and gamma rays.
 
 - **Luminosity:**
 
-  - Isotropic neutrino luminosity: (1.2+0.6−0.4) × 10^47 erg s^-1.
+  - Isotropic neutrino luminosity: $(1.2^{+0.6}_{−0.4}) × 10^{47} \text{erg} \text{ s}^{-1}$ average over 158 days
   - Higher than the gamma-ray luminosity during the same period.
 
 <hr>
@@ -560,59 +593,4 @@ Some gamma rays from neutrino production are absorbed or have energies outside t
 - Significant excess of muon-neutrino events supports TXS 0506+056 as a high-energy cosmic ray source.
 - Findings support blazars as key sources of high-energy astrophysical neutrinos.
 
-       
 
-
-
-
-## Other stuff
-### Some extra things you can do with the clean theme
-
-Special classes for emphasis
-- `.alert` class for default emphasis, e.g. [important note]{.alert}.
-- `.fg` class for custom colour, e.g. [important note]{.fg style="--col: #e64173"}.
-- `.bg` class for custom background, e.g. [important note]{.bg style="--col: #e64173"}.
-
-Cross-references
-
-- `.button` class provides a Beamer-like button, e.g.
-[[Summary]{.button}](#sec-summary)
-
-## Want more?
-
-### See our longer demo slides
-
-We've deliberarely kept this template lean, to get you up and running as fast as
-possible.
-
-We provide a separate
-[demo template](https://github.com/grantmcdermott/quarto-revealjs-clean-demo),
-with more examples for integrating code, tables, figures, etc.
-
-  - See the live demo slides
-  [here](https://grantmcdermott.com/quarto-revealjs-clean-demo/template.html).
-
-## Summary {#sec-summary}
-
-### A minimalist and elegant presentation theme
-
-The Quarto reveal.js clean theme aims to be a minimalist and elegant presention
-theme. Here are some options to get you started:
-
-Add the theme to an existing project.
-
-```{.bash}
-quarto install extension grantmcdermott/quarto-revealjs-clean
-```
-
-... or, create a new project using this slide deck as a lean template.
-
-```{.bash}
-quarto use template grantmcdermott/quarto-revealjs-clean
-```
-
-... or, create a new project using the demo slide deck as a full template.
-
-```{.bash}
-quarto use template grantmcdermott/quarto-revealjs-clean-demo
-```

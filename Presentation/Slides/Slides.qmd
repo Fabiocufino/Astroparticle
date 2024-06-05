@@ -62,7 +62,12 @@ They are not deflected by magnetic fields, making them ideal for studying extrem
 :::
 
 ::: {.column width="50%"}
-![[Ice cube,  ILLUSTRATION: EMILY COOPER]](Images/icecube.png)
+
+<div style="text-align: center;">
+  <img src="Images/icecube.png" alt="Time">
+  <p style="color: gray; font-size: 18px; margin-top: -20px;">[Illustration: Emily Cooper]</p>
+</div>
+
 :::
 
 ::::
@@ -85,7 +90,10 @@ They are not deflected by magnetic fields, making them ideal for studying extrem
 :::
 
 ::: {.column width="50%"}
-![[Ice cube, ILLUSTRATION: EMILY COOPER]](Images/icecube_2.png)
+<div style="text-align: center;">
+  <img src="Images/icecube_2.png" alt="Time">
+  <p style="color: gray; font-size: 18px; margin-top: -20px;">[Illustration: Emily Cooper]</p>
+</div>
 :::
 
 ::::

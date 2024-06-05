@@ -2,6 +2,9 @@
 
 This repository contains the code for a presentation titled "Blazars as sources of astrophysical neutrino flux," specifically focusing on the neutrino emission from the direction of the blazar TXS 0506+056 prior to the IceCube-170922A alert.
 
+# Consult the slides
+
+Just click on this link: https://fabiocufino.github.io/Astroparticle/
 
 ## Abstract
 

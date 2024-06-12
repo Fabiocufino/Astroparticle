@@ -21,10 +21,13 @@ date: last-modified
 
 <div style="height: 40px;"></div>
 
+<div class="fragment">
+
 ### Neutrinos as Probes
 
 - Unlike cosmic rays, neutrinos can travel unimpeded through the Universe.
 - Nearly massless, electrically neutral particles: not deflected by magnetic fields.
+</div>
 
 ## Introduction {auto-animate=true}
 ### Blazars
@@ -148,15 +151,17 @@ They are not deflected by magnetic fields, making them ideal for studying extrem
 Add everything related to the image: photomultiolier etc.
 :::
 
+# The IceCube-170922A Event
+
 ## The IceCube-170922A Event
 ### Neutrino recoded
-- On September 22, 2017, a high-energy neutrino (IceCube-170922A) was detected.
-- Most probable energy: $290 \text{ TeV}$ (90% confidence level lower limit: 183 TeV)
+- On September 22, 2017, a high-energy neutrino was detected.
+- Most probable energy: $290 \text{ TeV}$ (90% confidence level lower limit: $183 \text{ TeV}$)
 - Selected by the Extremely High Energy (EHE) online event filter
 
 ### Research Focus
 - The event was reported as a public alert. 
-- After the alert was sent, further studies refined the directional reconstruction, with best-fitting coordinates of RA 77.43+0.95 and Dec +5.72+0.50 
+- Further studies refined the directional reconstruction, with best-fitting coordinates of [RA $77.43^{+0.95}_{−0.65}$]{.fg} and [Dec $5.72^{+0.50}_{−0.30}$]{.fg}
 
 
 :::{.notes}
@@ -176,7 +181,7 @@ The northern sky, where TXS 0506+056 is located, is observed through Earth by Ic
 
 <div style="position: relative; width: 100%; height: 200px;">
   <span style="color: white; position: absolute; top:230%; left: 70%; transform: translate(-1%, -50%); font-size: 18px;">
-    Right Ascension (RA) 77.3582°, Declination (Dec) +5.69314° (J2000 equinox)
+    Right Ascension (RA) 77.3582°, Declination (Dec) +5.69314°
   </span>
   <div style="position: absolute; top: 201%; left: 103%; width: 20px; height: 20px; background-color: white; border-radius: 40%; transform: translate(-50%, -50%);"></div>
 </div>
@@ -191,7 +196,7 @@ The northern sky, where TXS 0506+056 is located, is observed through Earth by Ic
 
 <div style="position: relative; width: 100%; height: 200px;">
   <span style="text-align: center; color: white; position: absolute; top:135%; left: 1%; right: 40%;transform: translate(40%, -50%); font-size: 28px;">
-    <b>On the basis of this result, we consider the hypothesis that the blazar TXS 0506+056 has been a source of high-energy neutrinos beyond that single event.</b>
+    <b>"On the basis of this result, we consider the hypothesis that the blazar TXS 0506+056 has been a source of high-energy neutrinos beyond that single event."</b>
   </span>
 </div>
 
@@ -276,14 +281,35 @@ During the first three periods, the detector was still under construction. The l
 - Unbinned maximum likelihood technique 
 - Identify neutrino point sources by analyzing spatial clustering and energy distribution of detected neutrino events over an extended period.
 
-<div style="height: 40px;"></div>
-
-**Likelihood Function** $$ L(\Phi_{100}, \gamma) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma) + \left(1 - \frac{n_S(\Phi_{100}, \gamma)}{N}\right) \mathcal{B}(\sin \delta_i, E_i) \right) $$ <div style="height: 5px;"></div> 
-  - $n_S (\Phi_{100},\gamma)$ number of signal neutrinos for $\Phi(E) = \Phi_{100}(E/100 TeV)^{−γ}$:
+<div style="margin-top: -20px;"></div>
 
 
+**Likelihood Function** $$L(\Phi_{100}, \gamma) = \prod_i \left( \frac{\color{#107895}{n_S(\Phi_{100}, \gamma)}}{N} \mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma) + \left(1 - \frac{\color{#107895}{n_S(\Phi_{100}, \gamma)}}{N}\right) \mathcal{B}(\sin \delta_i, E_i) \right) $$
 
-$$n_S = T \times \int_{100 \text{ GeV}}^{1 \text{ EeV}} A_{\text{eff}}(E, \sin \delta_i) \Phi(E) dE$$ 
+<div style="height: 5px;"></div>
+
+- $\color{#107895}{n_S (\Phi_{100},\gamma)}$ number of signal neutrinos for a signal flux model of the form $\Phi(E) = \Phi_{100}(E/100 \text{ TeV})^{−\gamma}$:
+
+$$
+n_S = T \times \int_{100 \text{ GeV}}^{1 \text{ EeV}} A_{\text{eff}}(E, \sin \delta_i) \Phi(E) dE
+$$
+
+
+## Analysis Techniques
+### Time-integrated analysis
+
+- Unbinned maximum likelihood technique 
+- Identify neutrino point sources by analyzing spatial clustering and energy distribution of detected neutrino events over an extended period.
+
+<div style="margin-top: -20px;"></div>
+
+
+**Likelihood Function** $$L(\Phi_{100}, \gamma) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \textcolor[RGB]{230,65,115}{\mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma)} + \left(1 - \frac{n_S(\Phi_{100}, \gamma)}{N}\right) \textcolor[RGB]{230,65,115}{\mathcal{B} (\sin \delta_i, E_i)} \right)$$
+
+<div style="height: 5px;"></div>
+
+- $\textcolor[RGB]{230,65,115}{\mathcal{S}}$ and $\textcolor[RGB]{230,65,115}{\mathcal{B}}$ are the Probability Density Functions for the Signal and the Background.
+
 
 :::{.notes}
   - $N$ is the total number of neutrino events, 
@@ -357,11 +383,30 @@ $$
 **Likelihood Function:**<div style="font-size:0.8em; text-align:center; margin-bottom: 20px;">
 
 $$
-L(\Phi_{100}, \gamma, T_0, T_W) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \mathcal{S}(\sin \delta_i, E_i) \times TS(t_i; T_0, T_W) + \left( 1 - \frac{n_S(\Phi_{100}, \gamma)}{N} \right) \mathcal{B}(\sin \delta_i, E_i) \times TB(t_i) \right)
+L(\Phi_{100}, \gamma, T_0, T_W) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \textcolor[RGB]{230,65,115}{\mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma)} \times TS(t_i; T_0, T_W) + \left( 1 - \frac{n_S(\Phi_{100}, \gamma)}{N} \right) \textcolor[RGB]{230,65,115}{\mathcal{B}(\sin \delta_i, E_i)} \times TB(t_i) \right)
 $$
 </div>
 <div style="height: 5px;"></div> 
-- The terms $\mathcal{S}$ and $\mathcal{B}$ are defined as before.
+- The terms $\textcolor[RGB]{230,65,115}{\mathcal{S}}$ and $\textcolor[RGB]{230,65,115}{\mathcal{B}}$ were defined as before.
+
+## Analysis Techniques
+### Time-dependent analysis
+
+- Unbinned maximum likelihood technique 
+- Aims to identify clusters of neutrino events in space and in time. 
+
+<div style="height: 60px;"></div>
+
+
+**Likelihood Function:**<div style="font-size:0.8em; text-align:center; margin-bottom: 20px;">
+
+$$
+L(\Phi_{100}, \gamma, T_0, T_W) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma) \times \textcolor[RGB]{76, 212, 162}{TS(t_i; T_0, T_W)} + \left( 1 - \frac{n_S(\Phi_{100}, \gamma)}{N} \right) \mathcal{B}(\sin \delta_i, E_i) \times \textcolor[RGB]{76, 212, 162}{TB(t_i)} \right)
+$$
+</div>
+<div style="height: 5px;"></div> 
+- $\textcolor[RGB]{76, 212, 162}{TS}$ and $\textcolor[RGB]{76, 212, 162}{TB}$ are the Signal  and Background Temporal Distribution Functions
+
 
 
 

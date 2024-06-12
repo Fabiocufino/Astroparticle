@@ -354,11 +354,14 @@ Fabio Cufino
 <div style="height: 40px;">
 
 </div>
+<div class="fragment">
+<!-- -->
 <h3 id="neutrinos-as-probes">Neutrinos as Probes</h3>
 <ul>
 <li>Unlike cosmic rays, neutrinos can travel unimpeded through the Universe.</li>
 <li>Nearly massless, electrically neutral particles: not deflected by magnetic fields.</li>
 </ul>
+</div>
 </section>
 <section id="introduction-1" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Introduction</h2>
@@ -479,18 +482,23 @@ Fabio Cufino
           display:block!important;
       }</style></aside>
 </section>
-<section id="the-icecube-170922a-event" class="slide level2">
+<section>
+<section id="the-icecube-170922a-event" class="title-slide slide level1 center">
+<h1>The IceCube-170922A Event</h1>
+
+</section>
+<section id="the-icecube-170922a-event-1" class="slide level2">
 <h2>The IceCube-170922A Event</h2>
 <h3 id="neutrino-recoded">Neutrino recoded</h3>
 <ul>
-<li>On September 22, 2017, a high-energy neutrino (IceCube-170922A) was detected.</li>
-<li>Most probable energy: <span class="math inline">\(290 \text{ TeV}\)</span> (90% confidence level lower limit: 183 TeV)</li>
+<li>On September 22, 2017, a high-energy neutrino was detected.</li>
+<li>Most probable energy: <span class="math inline">\(290 \text{ TeV}\)</span> (90% confidence level lower limit: <span class="math inline">\(183 \text{ TeV}\)</span>)</li>
 <li>Selected by the Extremely High Energy (EHE) online event filter</li>
 </ul>
 <h3 id="research-focus">Research Focus</h3>
 <ul>
 <li>The event was reported as a public alert.</li>
-<li>After the alert was sent, further studies refined the directional reconstruction, with best-fitting coordinates of RA 77.43+0.95 and Dec +5.72+0.50</li>
+<li>Further studies refined the directional reconstruction, with best-fitting coordinates of <span class="fg">RA <span class="math inline">\(77.43^{+0.95}_{−0.65}\)</span></span> and <span class="fg">Dec <span class="math inline">\(5.72^{+0.50}_{−0.30}\)</span></span></li>
 </ul>
 <aside class="notes">
 <p>EHE alerts are currently sent at a rate of about four per year, and are based on well-reconstructed, high-energy muon-track events</p>
@@ -524,7 +532,7 @@ Fabio Cufino
       }</style></aside>
 <div class="fragment">
 <div style="position: relative; width: 100%; height: 200px;">
-<span style="color: white; position: absolute; top:230%; left: 70%; transform: translate(-1%, -50%); font-size: 18px;"> Right Ascension (RA) 77.3582°, Declination (Dec) +5.69314° (J2000 equinox) </span>
+<span style="color: white; position: absolute; top:230%; left: 70%; transform: translate(-1%, -50%); font-size: 18px;"> Right Ascension (RA) 77.3582°, Declination (Dec) +5.69314° </span>
 <div style="position: absolute; top: 201%; left: 103%; width: 20px; height: 20px; background-color: white; border-radius: 40%; transform: translate(-50%, -50%);">
 
 </div>
@@ -535,9 +543,9 @@ Fabio Cufino
 <section id="the-blazar-txs-0506056-1" class="slide level2" data-background-image="Images/Fermi_5_year_blur.jpg">
 <h2><span style="color: white;">The Blazar TXS 0506+056</span></h2>
 <div style="position: relative; width: 100%; height: 200px;">
-<p><span style="text-align: center; color: white; position: absolute; top:135%; left: 1%; right: 40%;transform: translate(40%, -50%); font-size: 28px;"> <b>On the basis of this result, we consider the hypothesis that the blazar TXS 0506+056 has been a source of high-energy neutrinos beyond that single event.</b> </span></p>
+<p><span style="text-align: center; color: white; position: absolute; top:135%; left: 1%; right: 40%;transform: translate(40%, -50%); font-size: 28px;"> <b>“On the basis of this result, we consider the hypothesis that the blazar TXS 0506+056 has been a source of high-energy neutrinos beyond that single event.”</b> </span></p>
 </div>
-</section>
+</section></section>
 <section>
 <section id="searching-for-neutrino-emission" class="title-slide slide level1 center">
 <h1>Searching for neutrino emission</h1>
@@ -665,17 +673,37 @@ Fabio Cufino
 <li>Unbinned maximum likelihood technique</li>
 <li>Identify neutrino point sources by analyzing spatial clustering and energy distribution of detected neutrino events over an extended period.</li>
 </ul>
-<div style="height: 40px;">
+<div style="margin-top: -20px;">
 
 </div>
-<strong>Likelihood Function</strong> <span class="math display">\[ L(\Phi_{100}, \gamma) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma) + \left(1 - \frac{n_S(\Phi_{100}, \gamma)}{N}\right) \mathcal{B}(\sin \delta_i, E_i) \right) \]</span>
+<p><strong>Likelihood Function</strong> <span class="math display">\[L(\Phi_{100}, \gamma) = \prod_i \left( \frac{\color{#107895}{n_S(\Phi_{100}, \gamma)}}{N} \mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma) + \left(1 - \frac{\color{#107895}{n_S(\Phi_{100}, \gamma)}}{N}\right) \mathcal{B}(\sin \delta_i, E_i) \right) \]</span></p>
 <div style="height: 5px;">
 
 </div>
 <ul>
-<li><span class="math inline">\(n_S (\Phi_{100},\gamma)\)</span> number of signal neutrinos for <span class="math inline">\(\Phi(E) = \Phi_{100}(E/100 TeV)^{−γ}\)</span>:</li>
+<li><span class="math inline">\(\color{#107895}{n_S (\Phi_{100},\gamma)}\)</span> number of signal neutrinos for a signal flux model of the form <span class="math inline">\(\Phi(E) = \Phi_{100}(E/100 \text{ TeV})^{−\gamma}\)</span>:</li>
 </ul>
-<p><span class="math display">\[n_S = T \times \int_{100 \text{ GeV}}^{1 \text{ EeV}} A_{\text{eff}}(E, \sin \delta_i) \Phi(E) dE\]</span></p>
+<p><span class="math display">\[
+n_S = T \times \int_{100 \text{ GeV}}^{1 \text{ EeV}} A_{\text{eff}}(E, \sin \delta_i) \Phi(E) dE
+\]</span></p>
+</section>
+<section id="analysis-techniques-1" class="slide level2">
+<h2>Analysis Techniques</h2>
+<h3 id="time-integrated-analysis-1">Time-integrated analysis</h3>
+<ul>
+<li>Unbinned maximum likelihood technique</li>
+<li>Identify neutrino point sources by analyzing spatial clustering and energy distribution of detected neutrino events over an extended period.</li>
+</ul>
+<div style="margin-top: -20px;">
+
+</div>
+<p><strong>Likelihood Function</strong> <span class="math display">\[L(\Phi_{100}, \gamma) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \textcolor[RGB]{230,65,115}{\mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma)} + \left(1 - \frac{n_S(\Phi_{100}, \gamma)}{N}\right) \textcolor[RGB]{230,65,115}{\mathcal{B} (\sin \delta_i, E_i)} \right)\]</span></p>
+<div style="height: 5px;">
+
+</div>
+<ul>
+<li><span class="math inline">\(\textcolor[RGB]{230,65,115}{\mathcal{S}}\)</span> and <span class="math inline">\(\textcolor[RGB]{230,65,115}{\mathcal{B}}\)</span> are the Probability Density Functions for the Signal and the Background.</li>
+</ul>
 <aside class="notes">
 <ul>
 <li><span class="math inline">\(N\)</span> is the total number of neutrino events,</li>
@@ -692,7 +720,7 @@ Fabio Cufino
           display:block!important;
       }</style></aside>
 </section>
-<section id="analysis-techniques-1" class="slide level2">
+<section id="analysis-techniques-2" class="slide level2">
 <h2>Analysis Techniques</h2>
 <h3 id="pdf-of-signal-events">PDF of signal events</h3>
 <div class="columns">
@@ -737,7 +765,7 @@ Fabio Cufino
 </div>
 </div>
 </section>
-<section id="analysis-techniques-2" class="slide level2">
+<section id="analysis-techniques-3" class="slide level2">
 <h2>Analysis Techniques</h2>
 <h3 id="time-dependent-analysis">Time-dependent analysis</h3>
 <ul>
@@ -750,17 +778,40 @@ Fabio Cufino
 <strong>Likelihood Function:</strong>
 <div style="font-size:0.8em; text-align:center; margin-bottom: 20px;">
 <p><span class="math display">\[
-L(\Phi_{100}, \gamma, T_0, T_W) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \mathcal{S}(\sin \delta_i, E_i) \times TS(t_i; T_0, T_W) + \left( 1 - \frac{n_S(\Phi_{100}, \gamma)}{N} \right) \mathcal{B}(\sin \delta_i, E_i) \times TB(t_i) \right)
+L(\Phi_{100}, \gamma, T_0, T_W) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \textcolor[RGB]{230,65,115}{\mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma)} \times TS(t_i; T_0, T_W) + \left( 1 - \frac{n_S(\Phi_{100}, \gamma)}{N} \right) \textcolor[RGB]{230,65,115}{\mathcal{B}(\sin \delta_i, E_i)} \times TB(t_i) \right)
 \]</span></p>
 </div>
 <div style="height: 5px;">
 
 </div>
 <ul>
-<li>The terms <span class="math inline">\(\mathcal{S}\)</span> and <span class="math inline">\(\mathcal{B}\)</span> are defined as before.</li>
+<li>The terms <span class="math inline">\(\textcolor[RGB]{230,65,115}{\mathcal{S}}\)</span> and <span class="math inline">\(\textcolor[RGB]{230,65,115}{\mathcal{B}}\)</span> were defined as before.</li>
 </ul>
 </section>
-<section id="analysis-techniques-3" class="slide level2">
+<section id="analysis-techniques-4" class="slide level2">
+<h2>Analysis Techniques</h2>
+<h3 id="time-dependent-analysis-1">Time-dependent analysis</h3>
+<ul>
+<li>Unbinned maximum likelihood technique</li>
+<li>Aims to identify clusters of neutrino events in space and in time.</li>
+</ul>
+<div style="height: 60px;">
+
+</div>
+<strong>Likelihood Function:</strong>
+<div style="font-size:0.8em; text-align:center; margin-bottom: 20px;">
+<p><span class="math display">\[
+L(\Phi_{100}, \gamma, T_0, T_W) = \prod_i \left( \frac{n_S(\Phi_{100}, \gamma)}{N} \mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma) \times \textcolor[RGB]{76, 212, 162}{TS(t_i; T_0, T_W)} + \left( 1 - \frac{n_S(\Phi_{100}, \gamma)}{N} \right) \mathcal{B}(\sin \delta_i, E_i) \times \textcolor[RGB]{76, 212, 162}{TB(t_i)} \right)
+\]</span></p>
+</div>
+<div style="height: 5px;">
+
+</div>
+<ul>
+<li><span class="math inline">\(\textcolor[RGB]{76, 212, 162}{TS}\)</span> and <span class="math inline">\(\textcolor[RGB]{76, 212, 162}{TB}\)</span> are the Signal and Background Temporal Distribution Functions</li>
+</ul>
+</section>
+<section id="analysis-techniques-5" class="slide level2">
 <h2>Analysis Techniques</h2>
 <h3 id="signal-temporal-distribution-functions">Signal Temporal Distribution Functions</h3>
 <div style="height: 5px;">
@@ -832,7 +883,7 @@ TB(t_i) = \frac{1}{T}
 </div>
 </div>
 </section>
-<section id="analysis-techniques-4" class="slide level2">
+<section id="analysis-techniques-6" class="slide level2">
 <h2>Analysis Techniques</h2>
 <h3 id="statistic-tests">Statistic tests</h3>
 <p><strong>Test Statistic (TS)</strong>:</p>

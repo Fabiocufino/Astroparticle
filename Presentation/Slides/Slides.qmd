@@ -12,30 +12,74 @@ date: last-modified
 ---
 
 ## Introduction
-### High-Energy Cosmic Rays
+### High-Energy Cosmic Rays and Neutrinos
 
-- **Extragalactic Origin**: Highest-energy cosmic rays are believed to originate from outside our galaxy.
-- **Acceleration Sites**: Exact locations where these particles are accelerated remain unidentified.
-
-
-**Neutrinos**
-
-- High-energy neutrinos are produced in or near the acceleration sites when cosmic rays interact with matter and ambient light.
+- **Extragalactic Origin**: Highest-energy cosmic rays come from outside our galaxy.
+- **Acceleration Sites**: the exact acceleration locations are unidentified.
+- **Neutrinos**: Produced near acceleration sites when cosmic rays interact with matter and light.
 
 
-## Introduction
-### Role of Neutrinos and Blazars
+<div style="height: 40px;"></div>
 
-**Neutrinos as Probes**:
+### Neutrinos as Probes
 
 - Unlike cosmic rays, neutrinos can travel unimpeded through the Universe.
 - Nearly massless, electrically neutral particles: not deflected by magnetic fields.
 
+## Introduction {auto-animate=true}
+### Blazars
+
+<div style="display: flex; width: 80%; height: auto; margin: auto;">
+  <figure style="text-align: center;">
+    <figcaption style="color: gray; font-size: 18px; margin-top: -15px;">[Hubble Space Telescope, Very Large Array (VLA) ]</figcaption>
+    <img src="Images/AGN.jpg" style="max-width: 100%; height: auto;">
+  </figure>
+</div>
+
+
+## Introduction {auto-animate=true}
+### Blazars
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<div style="height: 55px;"></div>
+
+
+<div style="display: flex; width: 80%; height: auto; margin: auto;">
+  <figure style="text-align: center;">
+    <img src="Images/AGN.jpg" style="max-width: 100%; height: auto;">
+    <figcaption style="color: gray; font-size: 18px; margin-top: -15px;">[Hubble Space Telescope, Very Large Array (VLA) ]</figcaption>
+  </figure>
+</div>
+
+<div style="font-size: smaller;">
+*Radio Galaxy Hercules:* Visible light by Hubble Space Telescope superposed with a radio image taken by the Very Large Array.
+</div>
+
+:::
+
+::: {.column width="5%"}
+:::
+
+
+::: {.column width="40%"}
 
 **Blazars as Neutrino Sources**:
 
+::: {.incremental}
 - Type of active galactic nucleus with powerful jets aimed towards Earth.
+- Sources of emission across the EM spectrum and high-energy gamma ray photons.
 - Prominent candidates for the sources of high-energy neutrino emissions.
+:::
+:::
+
+
+::::
+
+
 
 
 :::{.notes}
@@ -107,7 +151,7 @@ Add everything related to the image: photomultiolier etc.
 ## The IceCube-170922A Event
 ### Neutrino recoded
 - On September 22, 2017, a high-energy neutrino (IceCube-170922A) was detected.
-- Most probable energy: Most probable energy: 290 TeV (90% confidence level lower limit: 183 TeV)
+- Most probable energy: $290 \text{ TeV}$ (90% confidence level lower limit: 183 TeV)
 - Selected by the Extremely High Energy (EHE) online event filter
 
 ### Research Focus
@@ -202,7 +246,7 @@ During the first three periods, the detector was still under construction. The l
 **Astrophysical Neutrinos:**
 
 - Less than 1% of the detected events. 
-- Come from distant cosmic sources
+- Come from distant cosmic sources.
 - Flux scales as $dN/dE \sim E^{-2}$.
 :::
 
@@ -344,7 +388,7 @@ $$
 :::
 ::: {.column width="45%"}
 <div style="margin-top: -20px;"></div>
-![](Images/TS_plot_gauss.png){width="350"}
+![](Images/TS_plot_box.png){width="350"}
 :::
 
 ::::
@@ -367,7 +411,7 @@ $$
 :::
 ::: {.column width="45%"}
 <div style="margin-top: -40px;"></div>
-![](Images/TS_plot_box.png){width="350"}
+![](Images/TS_plot_gauss.png){width="350"}
 
 :::
 
@@ -497,7 +541,7 @@ Figure 1: Time-dependent analysis results. The orange curve corresponds to the a
 
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Dependent Analysis
-a. Joint uncertainty on gaussian shape fitted parameters holding the time parameters fixed (T0 = 13 December 2014, TW = 110 days) 
+a. Joint uncertainty on Gaussian shape fitted parameters holding the time parameters fixed (T0 = 13 December 2014, TW = 110 days) 
 b. Result of the time-dependent analysis performed at the location of TXS 0506+056 during the IC86b data period.
 
 <div style="text-align: center;">

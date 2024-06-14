@@ -73,8 +73,8 @@ date: last-modified
 **Blazars as Neutrino Sources**:
 
 ::: {.incremental}
-- Type of active galactic nucleus with powerful jets aimed towards Earth.
-- Sources of emission across the EM spectrum and high-energy gamma ray photons.
+- Type of active galactic nucleus with **powerful jets** aimed towards Earth.
+- Sources of emission across the EM spectrum with **high-energy gamma ray photons**.
 - Prominent candidates for the sources of high-energy neutrino emissions.
 :::
 :::
@@ -161,7 +161,7 @@ Add everything related to the image: photomultiolier etc.
 
 ### Research Focus
 - The event was reported as a public alert. 
-- Further studies refined the directional reconstruction, with best-fitting coordinates of [RA $77.43^{+0.95}_{−0.65}$]{.fg} and [Dec $5.72^{+0.50}_{−0.30}$]{.fg}
+- Further studies refined the directional reconstruction, with best-fitting coordinates of [RA $77.43^{+0.95}_{−0.65}°$]{.fg} and [Dec $5.72^{+0.50}_{−0.30}°$]{.fg}
 
 
 :::{.notes}
@@ -170,6 +170,14 @@ EHE alerts are currently sent at a rate of about four per year, and are based on
 
 
 ## <span style="color: white;">The Blazar TXS 0506+056</span> {background-image="Images/Fermi_5_year.jpg"}
+
+
+<div style="position: relative; width: 100%; height: 190px;">
+  <span style="color: grey; position: absolute; top:330%; left: 30%; transform: translate(-50%, -50%); font-size: 18px;">
+    Gamma-rays detected by the Fermi Gamma-ray Space Telescope from 2008 to 2017
+  </span>
+</div>
+
 
 :::{.notes}
 The direction of IceCube-170922A was consistent with the location of TXS 0506+056 and coincident with enhanced gamma-ray activity observed since April 2017 by the Large Area Telescope (LAT) on the Fermi Gamma-ray Space Telescope
@@ -180,10 +188,18 @@ The northern sky, where TXS 0506+056 is located, is observed through Earth by Ic
 . . .
 
 <div style="position: relative; width: 100%; height: 200px;">
-  <span style="color: white; position: absolute; top:230%; left: 70%; transform: translate(-1%, -50%); font-size: 18px;">
-    Right Ascension (RA) 77.3582°, Declination (Dec) +5.69314°
+  <span style="color: white; position: absolute; top:130%; left: 70%; transform: translate(-1%, -50%); font-size: 18px;">
+    Consistent with position: Right Ascension (RA) 77.3582°, Declination (Dec) +5.69314°
   </span>
-  <div style="position: absolute; top: 201%; left: 103%; width: 20px; height: 20px; background-color: white; border-radius: 40%; transform: translate(-50%, -50%);"></div>
+  <div style="position: absolute; top: 89%; left: 103%; width: 20px; height: 20px; background-color: white; border-radius: 40%; transform: translate(-50%, -50%);"></div>
+</div>
+
+. . .
+
+<div style="position: relative; width: 100%; height: 200px;">
+  <span style="color: white; position: absolute; top:50%; left: 70%; transform: translate(-1%, -50%); font-size: 18px;">
+    Coincident with enhanced gamma-ray activity observed April 2017
+  </span>
 </div>
     
 
@@ -242,32 +258,37 @@ During the first three periods, the detector was still under construction. The l
 ## Events
 ### Expected Event Types
 
-- **Location**: TXS 0506+056 is in the northern sky, observed through Earth by IceCube.
-- **Data Collection**: ~70,000 neutrino-induced muon tracks recorded annually.
+- **Location**: TXS 0506+056 is in the northern sky, observed through Earth by IceCube. <!-- .element: class="fragment" -->
+- **Data Collection**: ~70,000 neutrino-induced muon tracks recorded annually. <!-- .element: class="fragment" -->
 
 :::: {.columns}
 
 ::: {.column width="45%"}
-**Astrophysical Neutrinos:**
-
-- Less than 1% of the detected events. 
-- Come from distant cosmic sources.
-- Flux scales as $dN/dE \sim E^{-2}$.
+<div class="fragment">
+  <p><strong>Astrophysical Neutrinos:</strong></p>
+  <ul>
+    <li>Less than 1% of the detected events.</li>
+    <li>Come from distant cosmic sources.</li>
+    <li>Flux scales as $dN/dE \sim E^{-2}$.</li>
+  </ul>
+</div>
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="45%"}
-**Background Events:**
-
-- Vast majority of detected events.
-- Caused by neutrinos produced in the Earth's atmosphere.
-- Flux scales as $dN/dE \sim E^{-3.7}$.
+<div class="fragment">
+  <p><strong>Background Events:</strong></p>
+  <ul>
+    <li>Vast majority of detected events.</li>
+    <li>Caused by neutrinos produced in the Earth's atmosphere.</li>
+    <li>Flux scales as $dN/dE \sim E^{-3.7}$.</li>
+  </ul>
+</div>
 :::
 
 ::::
-
 
 
 :::{.notes}
@@ -276,14 +297,17 @@ During the first three periods, the detector was still under construction. The l
 :::
 
 ## Analysis Techniques
+. . .
+
 ### Time-integrated analysis
+
 
 - Unbinned maximum likelihood technique 
 - Identify neutrino point sources by analyzing spatial clustering and energy distribution of detected neutrino events over an extended period.
 
 <div style="margin-top: -20px;"></div>
 
-
+<div class="fragment">
 **Likelihood Function** $$L(\Phi_{100}, \gamma) = \prod_i \left( \frac{\color{#107895}{n_S(\Phi_{100}, \gamma)}}{N} \mathcal{S}(x_S, x_i, \sigma_i, E_i; \gamma) + \left(1 - \frac{\color{#107895}{n_S(\Phi_{100}, \gamma)}}{N}\right) \mathcal{B}(\sin \delta_i, E_i) \right) $$
 
 <div style="height: 5px;"></div>
@@ -293,7 +317,7 @@ During the first three periods, the detector was still under construction. The l
 $$
 n_S = T \times \int_{100 \text{ GeV}}^{1 \text{ EeV}} A_{\text{eff}}(E, \sin \delta_i) \Phi(E) dE
 $$
-
+</div>
 
 ## Analysis Techniques
 ### Time-integrated analysis
@@ -379,7 +403,7 @@ $$
 
 <div style="height: 60px;"></div>
 
-
+<div class="fragment">
 **Likelihood Function:**<div style="font-size:0.8em; text-align:center; margin-bottom: 20px;">
 
 $$
@@ -388,6 +412,7 @@ $$
 </div>
 <div style="height: 5px;"></div> 
 - The terms $\textcolor[RGB]{230,65,115}{\mathcal{S}}$ and $\textcolor[RGB]{230,65,115}{\mathcal{B}}$ were defined as before.
+</div>
 
 ## Analysis Techniques
 ### Time-dependent analysis
@@ -519,18 +544,43 @@ $$
 
 - The p-value is then computed from the TS.
 
-# Neutrinos from the direction of TXS 0506+056
+# Key Findings and Outcomes
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Dependent Analysis
 
-<div style="text-align: center;">
+<div class="fragment">
   <img src="Images/fig_1.png" alt="Time">
-  <p style="color: gray; font-size: 18px; margin-top: -20px;">[arXiv:1807.08794v1]</p>
+  <p style="color: gray; font-size: 18px; margin-top: -20px; text-align: center;">[arXiv:1807.08794v1]</p>
+
+<div style="height: 20px;"></div>
+
+<div style="font-size: 75%;">
+- **$\textcolor[RGB]{255,141,60}{\text{Orange Curve:}}$** corresponds to the analysis using the Gaussian-shaped TDF. 
+  - Central time $T_0$ and width $T_W$ are plotted for the most significant findings 
+  - p-value: height of the peak
+
+
+- **$\textcolor[RGB]{18,54,190}{\text{Blue Curve}}$:** corresponds to the analysis using the Box-shaped TDF. 
+  - The curve traces the outer edge of the superposition of the best-fitting time windows over all times $T_0$
+  - significance:  height of that window
+</div>
 </div>
 
 
-- IC86b from 2012 to 2015, contains a significant excess which is identified by both time-window shapes
-- The excess consists of $13 \pm 5$ events above the expectation from the atmospheric background.
+## Neutrinos from the direction of TXS 0506+056
+### Results of Time-Dependent Analysis
+
+
+<img src="Images/fig_1.png" >
+<p style="color: gray; font-size: 18px; margin-top: -20px; text-align: center;">[arXiv:1807.08794v1]</p>
+
+
+
+<ul>
+  <li class="fragment">IC86b from 2012 to 2015, contains a significant excess which is identified by both time-window shapes.</li>
+  <li class="fragment">The excess consists of $13 \pm 5$ events above the expectation from the atmospheric background.</li>
+</ul>
+
 
 
 
@@ -549,8 +599,14 @@ Figure 1: Time-dependent analysis results. The orange curve corresponds to the a
 - The significance depends on the energies of the events, their proximity to the coordinates of TXS 0506+056, and their clustering in time.
 
 <div style="text-align: center;">
-  <img src="Images/fig_2.png" alt="Time">
+  <img src="Images/fig_2.png" width="80%">
   <p style="color: gray; font-size: 18px; margin-top: -10px;">[arXiv:1807.08794v1]</p>
+</div>
+
+<div style="font-size: smaller;">
+- **Event Weight:** product of event’s spatial term and energy term in the unbinned likelihood analysis at the location of TXS 0506+056 and assuming $\gamma = 2.1$
+
+- **Muon Energy Proxy:** approximate value in units of TeV of the reconstructed muon energy.
 </div>
 
 :::{.notes}
@@ -563,7 +619,7 @@ Figure 1: Time-dependent analysis results. The orange curve corresponds to the a
 
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Dependent Analysis
-- The Gaussian is centered at 13 December 2014 $\pm$ 21 days 
+- The Gaussian is centered at $T_0 =$ 13 December 2014 $\pm$ 21 days 
 - Duration $T_W = 110^{+35}_{-24}$ days. 
 - The best-fitting parameters:
   a. fluence $E^2J_{100} = (2.1^{+0.9}_{-0.7}) \times 10^{-4} \text{ TeV cm}^{-2}$ at $100 \text{ TeV}$
@@ -587,7 +643,7 @@ Figure 1: Time-dependent analysis results. The orange curve corresponds to the a
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Dependent Analysis
 a. Joint uncertainty on Gaussian shape fitted parameters holding the time parameters fixed (T0 = 13 December 2014, TW = 110 days) 
-b. Result of the time-dependent analysis performed at the location of TXS 0506+056 during the IC86b data period.
+b. Skymap showing the p value of the time-dependent analysis performed at the coordinates of TXS 0506+056 (cross) and at surrounding locations, during IC86b data period.
 
 <div style="text-align: center;">
   <img src="Images/fig_3.png" alt="Time">
@@ -619,64 +675,75 @@ Figure 3: Time-dependent analysis results for the IC86b data period (2012-2015).
 ## Neutrinos from the direction of TXS 0506+056
 ### Results of Time-Integrated Analysis
 
-- The analysis is performed using the full 9.5 year-data samle
+- The analysis is performed using the full data sample
 
 <div style="margin-top: -35px;"></div>
 
 Best fitting parameters:
 
-  - Full 9.5-year sample best fit: 
+  - Full 9.5-year sample best fit  $\textcolor[RGB]{230,65,115}{(a \; posteriori)}$: 
     - $\Phi_{100} = (0.8^{+0.5}_{-0.4}) \times 10^{-16} \text{ TeV}^{-1} \text{ cm}^{-2} \text{s}^{-1}$, 
     - $\gamma = 2.0 \pm 0.3$.
-    - P value: $0.002\% (4.1σ)$.
-  - 7-year sample best fit: 
+    - P value: $0.002\% (4.1σ)$. 
+  
+<div class="fragment">
+  - 7-year sample best fit  $\textcolor[RGB]{230,65,115}{(No \; IC86c)}$: 
     - $\Phi_{100} = (0.9^{+0.6}_{-0.5}) \times 10^{-16} \text{ TeV}^{-1} \text{ cm}^{-2} \text{s}^{-1}$,
     - $\gamma = 2.1 \pm 0.3$.
     - P value: $1.6\% (2.1σ)$.
+</div>
+
 
 <div style="margin-top: -25px;"></div>
 
 
 
 <div style="position: relative; height: 800px;">
-  <img src="Images/fig_4_b.png" alt="Plot" style="position: absolute; bottom: 970px; left: 700px; width: 300px; height: 220px;">
-  <img src="Images/fig_4.png" alt="Plot" style="position: absolute; bottom: 740px; left: 700px; width: 300px; height: 220px;">
-  <p style="position: absolute; bottom: 710px; left: 770px; color: gray; font-size: 18px; margin-top: 420px;">[arXiv:1807.08794v1]</p>
+<p style="position: absolute; bottom: 770px; left: 770px; color: gray; font-size: 18px; margin-top: 320px;">[arXiv:1807.08794v1]</p>
+
+  <img src="Images/fig_4_b.png" alt="Plot" style="position: absolute; bottom: 1020px; left: 700px; width: 300px; height: 220px;">
+
+  <div class="fragment">
+  <img src="Images/fig_4.png" alt="Plot" style="position: absolute; bottom: 800px; left: 700px; width: 300px; height: 220px;">
+  </div>
+
+  
+
 </div>
 
 
 
+# Blazar TXS 0506+056 as neutrino source
 
-
-# Blazars as neutrino sources
-
-## Blazars as neutrino sources
-### Redshift and Luminosity
+## Blazar TXS 0506+056 as neutrino source
+### TXS 0506+056 Redshift and Luminosity
 
 - **Redshift:**
 
   - $z = 0.3365 \pm 0.0010$
   - Essential for determining the isotropic luminosity in both neutrinos and gamma rays.
 
-- **Luminosity:**
+- **Luminosity during enhanced activity:**
 
-  - Isotropic neutrino luminosity: $(1.2^{+0.6}_{−0.4}) × 10^{47} \text{erg} \text{ s}^{-1}$ average over 158 days
+  - Neutrino luminosity: $(1.2^{+0.6}_{−0.4}) × 10^{47} \text{erg} \text{ s}^{-1}$ average over $158$ days
   - Higher than the gamma-ray luminosity during the same period.
 
 <hr>
 
 Some gamma rays from neutrino production are absorbed or have energies outside the Fermi-LAT detection range.
 
-## Blazars as Neutrino Sources
+## Blazar TXS 0506+056 as neutrino source
 
-### Position and Inclination of TXS 0506+056
+### Position and Inclination
 
-- **Detection Likelihood**:
+The explanation for why TXS 0506+056 is the first blazar associated with a significant neutrino excess may depend on:
+
+1. **Detection Likelihood**:
   - Favorable declination increases IceCube detection chances.
-  - IceCube is highly sensitive to high-energy neutrinos near the equatorial plane, viewed from the South Pole.
+  - IceCube is highly sensitive to high-energy neutirinos near the equatorial plane, viewed from the South Pole.
+  - more than an order of magnitude more luminous than nearby blazars such as Markarian 421, Markarian 501, and 1ES 1959+650 (more northern declinations)
 
-- **Neutrino Excess**:
-  - Blazars with Earth-pointed jets (like TXS 0506+056) likely show significant neutrino emission.
+2.  **Intrinsic properties**
 
 :::{.notes}
     - Neutrino excess may depend on the blazar's jet inclination relative to our line of sight.
@@ -687,7 +754,18 @@ Some gamma rays from neutrino production are absorbed or have energies outside t
 - TXS 0506+056 is confirmed as a high-energy neutrino source with 3.5σ evidence from 2014-2015.
 - Evidence is independent of IceCube-170922A, reinforcing the blazar's role in neutrino production.
 - Isotropic neutrino luminosity is higher than gamma-ray luminosity.
-- Significant excess of muon-neutrino events supports TXS 0506+056 as a high-energy cosmic ray source.
 - Findings support blazars as key sources of high-energy astrophysical neutrinos.
 
 
+# Backup Slides
+
+## Estimation of $L$ for the null hypothesis
+Denomination of Test Statistic (TS):
+$$
+L(\Phi_{100} = 0)?
+$$
+
+- Probability distribution of the test statistic under the null hypothesis  estimated by performing the time-(in)dependent analysis at the location of TXS0506+056 on samples of randomized data.
+- In the time-dependent case, random samples are produced by randomly reassigning the times among the events within the same data period used to compute the like- lihood. 
+- The equatorial coordinates are then recomputed using the new times.
+- All other event properties remain unchanged.
